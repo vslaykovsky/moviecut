@@ -1,0 +1,171 @@
+* {
+  line-height: 1.8em;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 13px;
+}
+
+:host(:hover) #controls {
+  display: inline;
+}
+
+:host(:hover) #cut-controls, :host(:hover) #load-cut {
+  display: block;
+}
+
+.progress-overlay {
+  position: absolute; 
+  z-index: 2147483647;
+  opacity: 0.9;
+  background: repeating-linear-gradient(
+  45deg,
+  #606dbc,
+  #606dbc 10px,
+  #465298 10px,
+  #465298 20px
+);
+}
+
+.delete-overlay {
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 0;
+  position:relative;
+  z-index: 2147483647;
+  font-size:10px !important;
+  font-weight:bold !important;
+}
+
+
+#controller {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background: black;
+  color: white;
+
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px 10px 10px 15px;
+
+  cursor: default;
+  z-index: 9999999;
+  opacity: 0.3;
+}
+
+#controller:hover {
+  opacity: 0.7;
+}
+
+#controller:hover > .draggable {
+  margin-right: 0.8em;
+}
+
+#controls,#cut-controls,#load-cut {
+  display: none;
+}
+
+#controller.dragging {
+  cursor: -webkit-grabbing;
+  opacity: 0.7;
+}
+
+#controller.dragging #controls {
+  display: inline;
+}
+
+#controller.dragging #cut-controls,#controller.dragging #load-cut {
+  display: block;
+}
+
+.draggable {
+ /* cursor: -webkit-grab;*/
+  text-align: left;
+}
+
+.draggable:active {
+ /* cursor: -webkit-grabbing;*/
+}
+
+.speed-indicator {
+  float: right;
+}
+
+button {
+  cursor: pointer;
+  color: black;
+  background: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 1px 6px 1px 6px;
+  font-size: 20px;
+  line-height: 1;
+  border: 1px solid white;
+  font-family: "Lucida Console", Monaco, monospace;
+  margin-bottom: 2px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  opacity: 1.0;
+}
+
+button:active {
+  background: #ccc;
+}
+
+button.rw {
+  opacity: 0.65;
+}
+
+button.hideButton {
+  margin-right: 2px;
+}
+
+button.triggered {
+  background: #ccc;
+}
+
+button.cut-button {
+  width: 34px;
+  height: 24px;
+}
+
+button.cut-button img {
+  width:20px;
+  height:20px;
+}
+
+progress {
+  display: 'inline';
+  background-color: #eee;
+}
+
+/* material icons */
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v32/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}

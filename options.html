@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>__MSG_settingsTitle__</title>
+		<link rel="stylesheet" href="options.css" />
+		<script src="translate.js"></script>
+		<script src="options.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>__MSG_settingsTitle__</h1>
+		</header>
+
+    <section>
+      <h3>__MSG_shortcuts__</h3>
+      <div class="row">
+        <label for="rewindKeyInput">__MSG_rewind__</label>
+        <input id="rewindKeyInput" placeholder="press a key" type="text" value=""/>
+      </div>
+      <div class="row">
+        <label for="advanceKeyInput">__MSG_advance__</label>
+        <input id="advanceKeyInput" placeholder="press a key" type="text" value=""/>
+      </div>
+      <div class="row">
+        <label for="resetKeyInput">__MSG_resetSpeed__</label>
+        <input id="resetKeyInput" placeholder="press a key" type="text" value=""/>
+      </div>
+      <div class="row">
+        <label for="slowerKeyInput">__MSG_slower__</label>
+        <input id="slowerKeyInput" placeholder="press a key" type="text" value=""/>
+      </div>
+      <div class="row">
+        <label for="fasterKeyInput">__MSG_faster__</label>
+        <input id="fasterKeyInput" placeholder="press a key" type="text" value=""/>
+      </div>
+      <div class="row">
+        <label for="fastKeyInput">__MSG_preferredSpeed__</label>
+        <input id="fastKeyInput" placeholder="press a key" type="text" value=""/>
+      </div>
+      <div class="row">
+        <label for="displayKeyInput">__MSG_close__</label>
+        <input id="displayKeyInput" placeholder="press a key" type="text" value=""/>
+      </div>
+      <div class="row">
+          <label for="startHidden">__MSG_hideByDefault__</label>
+          <input id="startHidden" type="checkbox"/>
+      </div>
+    </section>
+
+    <section>
+			<h3>Other</h3>
+      <div class="row">
+          <label for="fastSpeed">__MSG_preferredSpeed__ (x)</label>
+          <input id="fastSpeed" type="text" value=""/>
+      </div>
+      <div class="row">
+          <label for="rememberSpeed">__MSG_rememberPlaybackSpeed__</label>
+          <input id="rememberSpeed" type="checkbox"/>
+      </div>
+      <div class="row">
+          <label for="blacklist">__MSG_blacklisted__</label>
+          <textarea id="blacklist" rows="10" cols="50"></textarea>
+      </div>
+    </section>
+
+    <button id="save">__MSG_save__</button>
+		<button id="restore">__MSG_restore__</button>
+
+    <div id="status"></div>
+
+    <div id="faq">
+      <hr />
+      __MSG_faq__
+      
+    </div>
+  </body>
+</html>

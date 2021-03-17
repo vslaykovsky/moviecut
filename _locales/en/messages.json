@@ -1,0 +1,91 @@
+{
+  "loadCuts" : {
+    "message": "Load existing cut"
+  },
+  "faster" : {
+    "message": "Increase playback speed"
+  },
+  "slower" : {
+    "message": "Decrease playback speed"
+  },
+  "rewind" : {
+    "message": "Rewind 10 seconds"
+  },
+  "advance" : {
+    "message": "Advance 10 seconds"
+  },
+  "resetSpeed" : {
+    "message": "Reset speed"
+  },
+  "hideByDefault" : {
+    "message": "Hide controller by default"
+  },
+  "preferredSpeed" : {
+    "message": "Preferred speed"
+  },
+  "optionsSaved" : {
+    "message": "Options saved"
+  },
+  "defaultOptionsRestored" : {
+    "message": "Default options restored"
+  },
+  "rememberPlaybackSpeed": {
+    "message": "Remember playback speed"
+  },
+  "save" : {
+    "message": "Save"
+  },
+  "restore" : {
+    "message": "Restore defaults"
+  },
+  "blacklisted": {
+    "message": "Blacklisted sites on which extension is disabled<br/>(one per line)"
+  },
+  "share" : {
+    "message": "Share your cut with others"
+  },
+  "play" : {
+    "message": "Play/pause the video"
+  },
+  "close" : {
+    "message": "Close this popup"
+  },
+  "cut" : {
+    "message": "Start/finish cutting"
+  },
+  "speed" : {
+    "message": "Current playback speed multiplier"
+  },
+  "saveAs" : {
+    "message": "Save as:"
+  },
+  "myVideoCut" : {
+    "message": "My video cut of"
+  },
+  "description" : {
+    "message": "Edit online videos and share results with friends. Youtube and Netflix movies are supported"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "feedback": {
+    "message": "Send feedback"
+  },
+  "about": {
+    "message": "About"
+  },
+  "settingsTitle": {
+    "message": "MovieCut Controller: Options"
+  },
+  "faq": {
+    "message": "<h4>How does the controller look like?</h4><p><img src='images/videocut1.jpg'/><img src='images/videocut2.jpg'/></p><h4>The video controls are not showing up?</h4><p>This extension is only compatible with HTML5 video. If you don't see the controls showing up, chances are you are viewing a Flash video. If you want to confirm, try right-clicking on the video and inspect the menu: if it mentions flash, then that's the issue. That said, <b>most sites will fallback to HTML5</b> if they detect that Flash it not available. You can try manually disabling Flash plugin in Chrome:</p> <ul>           <li>In a new tab, navigate to <code><a href='chrome://settings/content/flash'>chrome://settings/content/flash</a></code></li>           <li>Disable \"Allow sites to run Flash\"</li>           <li>Restart your browser and try playing your video again</li>         </ul>            <h4>The video controls are not showing up for local videos?</h4>         <p>To enable playback of local media (e.g. File &gt; Open File), you need to grant additional permissions to the extension.</p>            <ul>           <li>In a new tab, navigate to <code><a href='chrome://extensions'>chrome://extensions</a></code></li>           <li>Find \"MovieCut\" extension in the list and enable \"Allow access to file URLs\"</li>           <li>Open a new tab and try opening a local file, the controls should show up</li>         </ul>"
+
+  },
+
+  "shortcuts": { "message" : "Shortcuts" },
+  "deleted": { "message" : "Deleted" },
+  "seconds": { "message" : "seconds" },
+  "removeSegment": { "message" : "Delete this interval" }
+
+
+}
